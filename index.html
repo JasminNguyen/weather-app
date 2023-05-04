@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6d0276a161.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+    <div class="card">
+        <div class="container container-cities">
+            <div class="row">
+                <div class="col-2">
+                    Nice
+                </div>
+                <div class="col-2">
+                    New York
+                </div>
+                <div class="col-2">
+                    London
+                </div>
+                <div class="col-2">
+                    Paris
+                </div>
+                <div class="col-2">
+                    Rom
+                </div>
+
+            </div>
+        </div>
+        <form id="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <input type="text" id="search-bar" class="form-control search-bar shadow" autofocus="on"
+                            placeholder="Type in your city">
+                    </div>
+                    <div class="col-1">
+                        <input type="submit" value="Search" class="button">
+
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        <div class="container container-berlin">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-cloud-sun main-icon"></i>
+                </div>
+
+                <div class="col-3 berlin">
+                    <strong id="requested-city">Berlin</strong>
+                    <div class="time" id="time">Sunday 21:00 </div>
+                    <div><span id="big-temperature" class="big-temperature"><strong>34</strong></span>
+                        <a href="#" id="temperature-in-celsius" class="temperature-in-celsius">°C</a>| <span
+                            class="fahrenheit"><a href="#" id="temperature-in-fahrenheit"
+                                class="temperature-in-fahrenheit">°F</a></span>
+                    </div>
+
+                </div>
+                <div class="col-4 berlin-precipitation">
+                    <span>Humidity:</span>
+                    <span id="big-humidity"> 93</span><span>%</span>
+                    </br>
+                    <span>Wind:</span>
+                    <span id="big-wind"> 13 </span><span>m/s</span>
+                    </br>
+                    <span id="description" class="description"></span>
+
+                </div>
+
+                <div class="col-2">
+                    <input type="submit" value="Current" class="button current-location-button">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-weekdays">
+            <div class="row">
+                <div class="col-2">
+                    <strong>Saturday</strong>
+                    <div class="saturday">
+                        <div>
+                            <i class="fa-solid fa-sun little-icon saturday-icon"></i>
+                        </div>
+                        <div class="temperature saturday-temperature">12°/<strong>15°</strong></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <strong>Sunday</strong>
+                    <div class="sunday">
+                        <div>
+                            <i class="fa-solid fa-cloud-sun-rain little-icon sunday-icon"></i>
+                        </div>
+                        <div class="temperature sunday-temperature">9°/<strong>11°</strong></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <strong>Monday</strong>
+                    <div class="monday">
+                        <div>
+                            <i class="fa-solid fa-wind little-icon monday-icon"></i>
+                            <div class="temperature monday-temperature">7°/<strong>9°</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <strong>Tuesday</strong>
+                    <div class="tuesday">
+                        <div>
+                            <i class="fa-solid fa-cloud-rain little-icon tuesday-icon"></i>
+                        </div>
+                        <div class="temperature tuesday-temperature">6°/<strong>12°</strong></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <strong>Wednesday</strong>
+                    <div class="wednesday">
+                        <div>
+                            <i class="fa-solid fa-cloud little-icon wednesday-icon"></i>
+                        </div>
+                        <div class="temperature wednesday-temperature">8°/<strong>15°</strong></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="src/script.js"> </script>
+</body>
+
+</html>
