@@ -1,0 +1,195 @@
+.card {
+  margin: 30px 250px;
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+.main-icon {
+  font-size: 80px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.button {
+  position: relative;
+  right: -10px;
+  margin-top: 7px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  background: rgb(82, 105, 134);
+  color: white;
+}
+
+.search-bar {
+  position: relative;
+  left: 25px;
+  margin-top: 7px;
+  border: 1px solid grey;
+}
+
+.container-cities {
+  position: relative;
+  left: 60px;
+  margin-top: 10px;
+}
+
+.container-berlin {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.berlin {
+  font-size: 30px;
+}
+
+.berlin-precipitation {
+  margin-top: 10px;
+  line-height: 28px;
+}
+
+.container-weekdays {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.little-icon {
+  font-size: 38px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.wednesday-icon {
+  position: relative;
+  left: 5px;
+}
+
+.temperature {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.saturday {
+  border: 0.7px solid black;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 100px;
+  border-radius: 8px;
+  position: relative;
+  left: -12px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.saturday-temperature {
+  position: relative;
+  left: 9px;
+  font-size: 18px;
+}
+
+.saturday-icon {
+  position: relative;
+  left: 10px;
+}
+
+.sunday {
+  border: 0.7px solid black;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 100px;
+  border-radius: 8px;
+  position: relative;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.sunday-icon {
+  position: relative;
+  left: 8px;
+}
+
+.sunday-temperature {
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+}
+.monday {
+  border: 0.7px solid black;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 100px;
+  border-radius: 8px;
+  position: relative;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.monday-icon {
+  position: relative;
+  left: 12px;
+}
+
+.monday-temperature {
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+}
+.tuesday {
+  border: 0.7px solid black;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 100px;
+  border-radius: 8px;
+  position: relative;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.tuesday-icon {
+  position: relative;
+  left: 10px;
+}
+
+.tuesday-temperature {
+  position: relative;
+  left: 10px;
+  font-size: 18px;
+}
+.wednesday {
+  border: 0.7px solid black;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 100px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.wednesday-temperature {
+  position: relative;
+  left: 12px;
+  font-size: 18px;
+}
+
+.time {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.temperature-in-celsius {
+  color: black;
+}
+
+.temperature-in-fahrenheit {
+  color: black;
+}
+
+.big-temperature {
+  font-weight: 500;
+}
+
+.current-location-button {
+  position: relative;
+  right: 1px;
+  background: darkblue;
+}
+
+.description {
+  text-transform: capitalize;
+}
