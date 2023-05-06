@@ -193,3 +193,7 @@
 .description {
   text-transform: capitalize;
 }
+
+.open-source {
+  text-align: center;
+}
